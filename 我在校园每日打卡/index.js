@@ -29,6 +29,7 @@ function encodeQs(healthObj) {
    return encoded;
 }
 
+// 计算 Content-Length 的值
 function getQsLen(obj) {
    const str = JSON.stringify(encodeQs(obj));
    return str.length;
