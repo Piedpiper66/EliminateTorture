@@ -1,6 +1,6 @@
 /**
  *   自动播放融e学创业课视频
- *    @startIndex 视频序号, 从 0 开始
+ *   @param { number } startIndex 视频序号, 从 0 开始
 */
 function autoplay(startIndex) {
    // 所有课程节点
